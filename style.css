@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.question-container, .options{
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  height: 500px;
+  width: 500px;
+  border: 2px solid #333;
+}
+
+.part {
+  flex: 1;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.colored-part {
+  background-color: #1c90d3; /* Blue for parts 1, 2, 3 */
+  color: white;
+}
+
+.default-part {
+  background-color: #ffffff; /* Light gray for part 4 */
+}
+
+.fraction-container {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.fraction {
+  display: flex;
+  text-align: center;
+  margin: 10px;
+}
+.numerator {
+  font-weight: bold;
+  margin-bottom: 5px; /* Space between numerator and denominator */
+}
+
+.denominator {
+  border-top: 1px solid #000; /* Line between numerator and denominator */
+  padding-top: 5px; /* Space above the denominator */
+  font-weight: normal;
+}
+.checkbox {
+  margin-left: 10px;
+}
+label{
+margin: 10px;
+transform: scale(1.5);
+}
